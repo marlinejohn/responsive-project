@@ -1,6 +1,7 @@
 :root {
   --primary-color: #6c63ff;
   --secondary-color: #f5f2fe;
+  --background-color: #f0e9f6;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
@@ -14,14 +15,6 @@ h2,
 h3 {
   text-align: center;
   margin: 0;
-}
-
-h1 {
-  font-size: 96px;
-}
-
-h2 {
-  font-size: 48px;
 }
 
 h3 {
@@ -98,4 +91,45 @@ p {
 }
 .heading {
   text-align: left;
+}
+.intro h1 {
+  font-size: 90px;
+}
+.intro h2 {
+  font-size: 38px;
+}
+@media (max-width: 575px) {
+  .intro {
+    background-color: var(--background-color);
+  }
+
+  .intro h1 {
+    font-size: 50px;
+  }
+  .intro h2 {
+    font-size: 30px;
+  }
+  .contact-links {
+    margin-top: 20px;
+    /* margin-bottom: 2px; */
+  }
+  img {
+    display: none;
+  }
+
+  .app-details {
+    display: block;
+    text-align: center;
+  }
+  .app-details h1 {
+    text-align: center;
+  }
+  .app-details p {
+    text-align: center;
+  }
+  .app-details a {
+    font-size: 18px;
+    display: block;
+    text-align: center;
+  }
 }
