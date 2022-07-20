@@ -120,14 +120,15 @@ h3,
 p {
   text-align: left;
 }
-.content {
-  margin: 35px;
-}
-.content a {
+.container-content a {
   color: white;
   background-color: var(--primary-color);
   padding: 12px 30px;
 }
+.content {
+  margin: 35px;
+}
+
 footer .social-links a {
   background-color: var(--secondary-color);
   color: var(--primary-color);
@@ -154,7 +155,6 @@ footer .social-links a {
   }
   .contact-links {
     margin-top: 20px;
-    /* margin-bottom: 2px; */
   }
   img {
     display: none;
@@ -174,5 +174,9 @@ footer .social-links a {
     font-size: 18px;
     display: block;
     text-align: center;
+  }
+  .container-content .content {
+    margin: -50px;
+    padding: 5px 5px;
   }
 }
