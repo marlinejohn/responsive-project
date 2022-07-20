@@ -86,13 +86,14 @@ p {
 .email {
   display: flex;
   justify-content: center;
-  color: var(--primary-color);
-  font-size: 28px;
+  color: black;
+  font-size: 20px;
   text-decoration: none;
 }
 
 .email:hover {
   cursor: pointer;
+  color: var(--primary-color);
 }
 .launch-link {
   background: var(--primary-color);
@@ -126,6 +127,19 @@ p {
   color: white;
   background-color: var(--primary-color);
   padding: 12px 30px;
+}
+footer .social-links a {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  font-size: 20px;
+  margin: 0 20px;
+  padding: 10px 14px;
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+}
+.contact-container {
+  background-color: var(--background-color);
+  padding: 10px;
 }
 @media (max-width: 575px) {
   .intro {
