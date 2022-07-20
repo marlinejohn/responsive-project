@@ -125,6 +125,7 @@ p {
 .content a {
   color: white;
   background-color: var(--primary-color);
+  padding: 12px 30px;
 }
 @media (max-width: 575px) {
   .intro {
