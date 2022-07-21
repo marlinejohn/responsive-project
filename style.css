@@ -9,7 +9,6 @@
 
 body {
   margin: 60px auto;
-  /* max-width: 800px; */
 }
 
 h1,
@@ -101,6 +100,11 @@ p {
   border: 1px solid var(--primary-color);
   box-shadow: var(--box-shadow);
 }
+.launch-link:hover {
+  color: black;
+  background: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
 .heading {
   text-align: left;
 }
@@ -125,8 +129,10 @@ p {
   background-color: var(--primary-color);
   padding: 12px 30px;
 }
-.content {
-  margin: 35px;
+.content-container h3 {
+  font-family: var(--default-font-family);
+  color: black;
+  opacity: 10;
 }
 
 footer .social-links a {
@@ -175,8 +181,17 @@ footer .social-links a {
     display: block;
     text-align: center;
   }
-  .container-content .content {
-    margin: -50px;
-    padding: 5px 5px;
+
+  .container-content {
+    margin: 25px;
+    display: block;
+    text-align: center;
+  }
+
+  .container-content h1,
+  h3,
+  p {
+    display: block;
+    text-align: center;
   }
 }
